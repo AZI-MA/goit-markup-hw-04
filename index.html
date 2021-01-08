@@ -21,14 +21,39 @@
         </a>
 
         <ul class="menu-nav list">
-          <li class="item"><a href="" class="link current">Студия</a></li>
-          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li class="item"><a href="" class="link">Контакты</a></li>
+          <li class="item">
+            <a href="" class="link current">Студия
+            </a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="link">Портфолио
+            </a>
+          </li>
+          <li class="item">
+            <a href="" class="link">Контакты
+            </a>
+          </li>
         </ul>
       </nav>
       <ul class="contacts-nav list">
-        <li class="item"><a href="" class="link email" lang="en">info@devstudio.com</a></li>
-        <li class="item"><a href="" class="link phone">+38 096 111 11 11</a></li>
+
+        <li class="item">
+          <a href="mailto:info@devstudio.com" class="link email" lang="en">
+            <svg class="contacts icon-envelope" width="16px" height="12px">
+              <use href="./images/sprite.svg#envelope"></use>
+            </svg>
+          info@devstudio.com
+        </a>
+        </li>
+
+        <li class="item">
+          <a href="tel:+38 096 111 11 11" class="link phone">
+            <svg class="contacts icon-smartphone" width="10px" height="16px">
+              <use href="./images/sprite.svg#smartphone"></use>
+            </svg>
+          +38 096 111 11 11
+        </a>
+        </li>
       </ul>
     </div>
   </header>
@@ -37,7 +62,7 @@
 
     <!--Шапка-->
     <section class="heading">
-      <div class="container">
+      <div class="overlay">
         <div class="heading-description">
           <h1 class="heading-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button primary">Заказать услугу</button>
@@ -50,22 +75,42 @@
       <div class="container">
         <h2 class="section-title centered visually-hidden">Особенности</h2>
         <ul class="feature-list list">
-          <li class="item">
+          <li class="item ">
+            <div class="feature-icons">
+              <svg class="icon antenna">
+                <use href="./images/sprite.svg#antenna"></use>
+              </svg>
+            </div>
             <h3 class="title">Внимание к деталям</h3>
             <p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
           <li class="item">
+            <div class="feature-icons">
+              <svg class="icon clock">
+                <use href="./images/sprite.svg#clock"></use>
+              </svg>
+            </div>
             <h3 class="title">Пунктуальность</h3>
             <p class="feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li class="item">
+            <div class="feature-icons">
+              <svg class="icon diagram">
+                <use href="./images/sprite.svg#diagram"></use>
+              </svg>
+            </div>
             <h3 class="title">Планирование</h3>
             <p class="feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li class="item">
+            <div class="feature-icons">
+              <svg class="icon astronaut">
+                <use href="./images/sprite.svg#astronaut"></use>
+              </svg>
+            </div>
             <h3 class="title">Современные технологии</h3>
             <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
             </p>
@@ -79,9 +124,15 @@
       <div class="container">
         <h2 class="section-title centered">Чем мы занимаемся</h2>
         <ul class="work-list list">
-          <li class="item"> <img src="images/box-1.jpg" alt="Процесс программирования" width="370" /></li>
-          <li class="item"> <img src="images/box-2.jpg" alt="Мобильные устройства " width="370" /></li>
-          <li class="item"> <img src="images/box-3.jpg" alt="Цветовые палитры" width="370" /></li>
+          <li class="item">
+            <img src="images/box-1.jpg" alt="Процесс программирования" width="370" />
+          </li>
+          <li class="item">
+            <img src="images/box-2.jpg" alt="Мобильные устройства " width="370" />
+          </li>
+          <li class="item">
+            <img src="images/box-3.jpg" alt="Цветовые палитры" width="370" />
+          </li>
         </ul>
       </div>
     </section>
@@ -91,25 +142,39 @@
       <div class="container">
         <h2 class="section-title centered">Наша команда</h2>
         <ul class="team-list list">
-          <li class="item"> <img src="images/teamcard-1.jpg" alt="Улыбающийся мужчина в очках с бородой " width="270">
+            <li class="item">
+            <img src="images/teamcard-1.jpg" alt="Улыбающийся мужчина в очках с бородой " width="270">
             <div class="team-list-text">
               <h3 class="title">Игорь Демьяненко</h3>
               <p lang="en" class="text"> Product Designer</p>
             </div>
+            <ul class="team-social list">
+              <li>
+                <a class="social-links" href="#">
+                  <svg class="social-icons">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          
           </li>
-          <li class="item"><img src="images/teamcard-2.jpg" alt="Улыбающийся женщина  в очках " width="270">
+          <li class="item">
+            <img src="images/teamcard-2.jpg" alt="Улыбающийся женщина  в очках " width="270">
             <div class="team-list-text">
               <h3 class="title">Ольга Репина</h3>
               <p lang="en" class="text">Frontend Developer</p>
             </div>
           </li>
-          <li class="item"> <img src="images/teamcard-3.jpg" alt="Улыбающийся мужчина " width="270">
+          <li class="item">
+            <img src="images/teamcard-3.jpg" alt="Улыбающийся мужчина " width="270">
             <div class="team-list-text">
               <h3 class="title">Николай Тарасов</h3>
               <p lang="en" class="text">Marketing</p>
             </div>
           </li>
-          <li class="item"> <img src="images/teamcard-4.jpg" alt="Мужчина в очках с бородой " width="270">
+          <li class="item">
+            <img src="images/teamcard-4.jpg" alt="Мужчина в очках с бородой " width="270">
             <div class="team-list-text">
               <h3 class="title">Михаил Ермаков</h3>
               <p lang="en" class="text">UI Designer</p>
@@ -129,8 +194,16 @@
       <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
 
       <ul class="contacts list">
-        <li><a href="" class="contacts email" lang="en">info@devstudio.com </a></li>
-        <li><a href="" class="contacts phone">+38 096 111 11 11</a></li>
+        <li>
+          <a href="" class="contacts email" lang="en">info@devstudio.com
+
+          </a>
+        </li>
+        <li>
+          <a href="" class="contacts phone">+38 096 111 11 11
+
+          </a>
+        </li>
       </ul>
     </div>
 
