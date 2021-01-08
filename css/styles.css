@@ -159,6 +159,18 @@ img {
   color: var(--accent-color);
 }
 
+.contacts-nav .contacts {
+  display: inline-block;
+  justify-content: baseline;
+  align-items: center;
+  fill: var(--primary-text-color);
+}
+
+.contacts-nav .contacts:hover,
+.contacts-nav .contacts:focus {
+  fill: var(--accent-color);
+}
+
 /* Footer */
 
 .footer {
@@ -246,9 +258,24 @@ img {
 
 .heading {
   text-align: center;
-  background-color: var(--tertiary-background-color);
+  background-color: #c4c4c4;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/background-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .heading-title {
@@ -299,6 +326,22 @@ img {
 }
 
 /* Features */
+
+.feature-icons {
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+}
 
 .feature-list {
   display: flex;
@@ -355,12 +398,36 @@ margin-right: 30px;
 }
 
 .team-list-text {
+  background-color: var(--primary-white-color);
   padding: 30px 10px;
 }
 
 .team-list .text {
   font-size: 16px;
   line-height: 1.19;
+}
+
+.social-icons {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+
+  color: #afb1b8;
+}
+
+.social-links:hover,
+.social-links:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Styles for portfolio.html */
