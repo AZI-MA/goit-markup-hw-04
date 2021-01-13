@@ -240,6 +240,9 @@ img {
 .footer-list > li {
   width: 44px;
   height: 44px;
+}
+
+.footer-list > li:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -280,6 +283,8 @@ img {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
+  cursor: pointer;
 }
 
 .button.primary {
